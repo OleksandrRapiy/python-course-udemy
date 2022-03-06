@@ -1,3 +1,3 @@
 # Python Course from Udemy
 
-[The python mega course](https://softserve.udemy.com/course/the-python-mega-course)
+[The Python Mega Course 2022](https://softserve.udemy.com/course/the-python-mega-course)
