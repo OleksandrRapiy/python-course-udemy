@@ -15,3 +15,20 @@ print(list_range[-1])
 
 
 print(list_range[-7:])
+
+
+# list comprehension 
+
+temps = [1223, 321, 543, 321, -421, 432, -432]
+
+new_temps = [temp / 10 for temp in temps]
+
+print(new_temps)
+
+
+# list comprehension with condition 
+new_temps_not_less_than_zero = [temp / 10 for temp in temps if temp > 0 ]
+
+
+
+print(new_temps_not_less_than_zero)

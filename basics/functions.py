@@ -36,3 +36,17 @@ def is_value_in_list(x, list):
     return x in list
 
 print(is_value_in_list(9, data))
+
+
+# non keyword args 
+def mean(*args):
+    return sum(args)/ len(args)
+
+print(mean(1, 4, 6, 6, 3))
+
+# keyword args 
+
+def mean_kwarg(**kwargs):
+    return kwargs
+
+print(mean_kwarg(a=3,b=4 ))
